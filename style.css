@@ -1,0 +1,701 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 30px;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    margin: 2px 16px 1px 14px;
+}
+
+.logo img{
+    width: 90px;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-icons{
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+    padding-left:30px ;
+}
+
+.fa-cart-shopping:before, .fa-shopping-cart:before{
+    margin-right: 40px;
+}
+
+.hero-cont{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 380px;
+}
+
+.sec-1{
+    width: 100%;
+    height: 65vh;
+    background: url("./images/hero-sec1.webp");
+    background-size: cover;
+    background-position: center center;
+}
+.sec-1 p{
+    font-weight: 400;
+}
+.sec-1 h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+p.cta-bold{
+    font-weight: 500;
+}
+
+.sec1-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 38px;
+    padding-top: 38px;
+}
+
+.sec-2{
+    width: 100%;
+    height: 650px;
+    background: url("./images/hero-sec2.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.cta{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+button.cta-btn{
+    padding: 6px 36px;
+    background: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+a.cta-learn{
+    color: black;
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.sec-2{
+    color: white;
+    height: 690px;
+}
+
+.sec-2 p{
+    font-weight: 400;
+}
+.sec-2 h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.sec-2 button{
+    background: white;
+    color: black;
+}
+
+.sec-2 a{
+    color: white;
+}
+
+
+.sec-3{
+    background: url(./images/watch.webp);
+    background-size: cover;
+    background-position: center;
+    height: 670px;
+}
+
+.sec-3 button{
+    border-radius: 3px;
+}
+
+.cards-container{
+    margin-top:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.card{
+    width: 700px;
+    height: 400px;
+    background: #F6F6F6;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+
+
+.card-cont{
+    padding: 20px;
+}
+
+.card-cont h2{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.card1{
+    background: url("https://oasis.opstatics.com/content/dam/oasis/page/2024/product/op-open/highlight/two-column/new-open-pc.jpg.thumb.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.card2{
+    background: url("https://oasis.opstatics.com/content/dam/oasis/page/2024/product/euler/highlight/two-column/eular-pc.jpg.thumb.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.card3{
+    width: 670px;
+    background: url("https://oasis.opstatics.com/content/dam/oasis/page/2023/6-0highlight-product-card/rcc/Store_NA-PC.jpg.thumb.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:end;
+}
+
+.card4{
+    width: 690px;
+    background: url("https://oasis.opstatics.com/content/dam/oasis/page/2023/6-0highlight-product-card/rcc/RCC_NA-PC.jpg.thumb.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:end;
+}
+
+.sec-card-sec{
+    color: white;
+    display: flex;
+    flex-direction:column;
+}
+
+.con-wrapper{
+    padding: 24px;
+}
+
+.black{
+    margin-top: 50px;
+    width: 100%;
+    height:100%;
+    padding-bottom: 70px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.com-header{
+    height: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.com-header-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-header-wrapper{
+    margin: 50px 200px 30px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.com-hr-style{
+    border: none;
+    height: 1px;
+}
+
+.com-header h2{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.com-header-info{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.com-header-info h2{
+    font-size: 48px;
+    font-weight:400;
+}
+
+.red{
+    color: red;
+}
+
+.com-header-main{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.com-header-main-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.com-header-main-txt h2{
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.sub-com-header-main-txt p{
+    margin-bottom: 50px;
+}
+
+.sub-com-header-main-txt a{
+   color: white;
+}
+
+
+.com-image{
+    background:url("https://www.oneplus.com/content/dam/oasis/page/2023/home-pow/1736X900.jpg.thumb.webp");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.com-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.com-card{
+    background: black;
+    color: white;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.com-card-img{
+    width: 100%;
+    height: 100%;
+    background: url("https://www.oneplus.com/content/dam/oasis/page/2023/10-year-anniversary/1211/CarnivalGames2023HaveFunWin-PC.jpg.thumb.webp");
+    background-size: cover;
+    background-position:center;
+}
+
+.com-card-con{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    color: white;
+}
+
+.com-card-con h3{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.com-card-con a{
+    color: rgb(255, 255, 255);
+}
+
+.onetopia{
+    margin-top: 40px;
+    color: white;
+}
+
+hr{
+    margin-top:10px;
+}
+
+.onetopia-header h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.onetopia-header h2{
+    font-weight: 400;
+    font-size: 48px;
+    margin-top: 24px;
+}
+
+.onetopia-con{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.onetopia-con-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.onetopia-img{
+    height: 459px;
+    width: 100%;
+    background: url("https://www.oneplus.com/content/dam/oasis/page/2023/new-home/ap/oos14-pc.jpg.thumb.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.onetopia-cta p{
+    padding-bottom: 20px;
+}
+
+.onetopia-cta a{
+    padding-bottom: 20px;
+    color: white;
+}
+
+.utopia-con-hero-txt h3{
+    font-weight:300;
+}
+
+.utopia-con-hero-txt h2{
+    font-weight:500;
+    font-size: 30px;
+}
+
+.onetopia-img-2{
+    margin-right: 100px;
+    height: 390px;
+    width: 90%;
+    background: url("https://www.oneplus.com/content/dam/oasis/page/2024/home/photograph-pc.jpg.thumb.webp");
+    background-size: cover;
+    background-position:center;
+}
+
+.onetopia-card{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.onetopia-con2-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.support-wrapper{
+    margin-top: 40px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.support{
+    margin-right:200px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.support-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.support-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.support-card{
+    width: 50%;
+    height: 400px;
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.support-card-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.support-card-con-text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 130px;
+}
+
+.support-card-con-text h3{
+    font-weight: 300;
+}
+
+.support-card-con-text h2{
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.support-con-cta a{
+    color: rgb(0, 0, 0);
+}
+
+.support-con-cta{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.support-card-img{
+    width: 100%;
+    height:100%;
+    background: url("https://www.oneplus.com/content/dam/oasis/page/2022/new-homepage/na/homepage/support/Helpdesk-PC.jpg.thumb.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.support-list{
+    padding-top:30px ;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.line{
+    margin-top: 30px;
+    width:78% ;
+    height: 1px;
+    background-color: #e4e4e4;
+}
+
+.support-list ul{
+    display: flex;
+    justify-content:start;
+}
+
+.support-list li{
+    list-style-type: none;
+    padding-top: 30px;
+    margin-right: 100px;
+    margin-right: 100px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.line2{
+    height: 80px;
+    width: 1px;
+    background-color: #e4e4e4;
+}
+
+.footer{
+    margin-top: 10px;
+    width: 100%;
+    height:100%;
+    padding-bottom: 10px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title h2{
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.footer-title hr{
+    border:none;
+    background: #adadad;
+    margin-bottom: 30px;
+}
+
+.footer-wrapper{
+    margin: 10px 200px 30px 200px;
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background:rgb(0, 0, 0);
+    padding-top: 50px;
+}
+
+.footer-cards{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    gap: 20px;
+    height: 400px;
+}
+
+.footer-card{
+    width: 100%;
+    height: 340px;
+    background-image:url("https://oasis.opstatics.com/content/dam/oasis/page/2022/new-homepage/na/homepage/subscribe/DownloadAPP-PC.jpg.thumb.webp");
+    background-size:cover;
+    background-position:center;
+}
+
+.footer-card-con{
+    padding: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.footer-card-con-txt h2{
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.footer-card-con-txt p{
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.footer-card-con-cta button{
+    color: white;
+    background: transparent;
+    width: 280px;
+    height: 46;
+    padding:12px 0;
+    border: 1px solid white;
+}
+
+.footer-card-2{
+    width: 100%;
+    height: 340px;
+    background-image:url("https://oasis.opstatics.com/content/dam/oasis/page/2022/na/store/sub/storeSubscribe-PC.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.footer-card-2-txt h3{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer-card-2-cta p{
+    color: grey;
+    font-weight: 400;
+    font-size: 13px;
+    padding-bottom: 24px;
+}
+
+.footer-card-2-cta input{
+    color: white;
+    background: transparent;
+    width: 280px;
+    height: 46;
+    padding:12px 0;
+    padding-left: 30px;
+    border: 1px solid white;
+    font-size: 16px;
+}
+
+.footer-card-con-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #e4e4e4;
+}
+
+.link-list h3{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.link-list ul{
+    color: #adadad;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.link-list li{
+    padding: 6px;
+}
+
+
+.social-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.banks{
+    display: flex;
+    gap: 16px;
+}
+
+img.banks{
+    fill: #ffffff;
+}
+
+.socials-links{
+    color:#e4e4e4;
+    display: flex;
+    gap: 16px;
+}
+
+.socials-links h3{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
